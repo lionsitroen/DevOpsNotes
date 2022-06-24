@@ -8,7 +8,7 @@ passwd root
 mkdir -p /root/.ssh && echo '${pub-key}' >> .ssh/authorized_keys
 
 # Установить необходимый софт
-apt update && apt upgrade -y && apt install sudo dnsutils net-tools netcat vim mc curl htop iftop tcpdump tree fail2ban apt-transport-https gnupg2 tmux -y
+apt update && apt upgrade -y && apt install sudo dnsutils net-tools netcat vim mc curl htop iftop tcpdump tree fail2ban apt-transport-https gnupg2 tmux git pkg-config -y
 
 # Настроить vim
 echo "syntax on" >> .vimrc && echo "colorscheme elflord" >> .vimrc
