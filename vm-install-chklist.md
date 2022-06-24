@@ -119,3 +119,6 @@ ServerActive=<DNS or IP Zabbix Server>
 Hostname=<local Hostame> # должен совпадать с именем на сервре, если не определено берется из HostnameItem (system.hostname)
 
 service zabbix-agent2 restart
+  
+# полезная информация
+  Перманантная настройка DNS  https://www.linuxfordevices.com/tutorials/linux/change-dns-on-linux
